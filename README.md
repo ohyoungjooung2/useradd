@@ -19,10 +19,12 @@ Attributes
 
 Usage
 -----
-In chef client just do below command.
+
+1. add the your public key in files/default/authorized_keys
+2. In chef client just do below command.
 chef-client -o useradd
 
-You could do above like "ssh -t -i keyfile sudouser@hostname_or_ip 'sudo sudouser chef-client -o useradd'"
+You could do above like "ssh -t -i keyfile sudouser@hostname_or_ip 'sudo sudouser chef-client -o useradd'" from your central or knife server. 
 
 
 Contributing
