@@ -1,7 +1,7 @@
 useradd Cookbook
 ================
  This cookbook recipe is for adding many users for developers or other groups
- Maybe useful for sysadmins. Not sufficient. 
+ Maybe useful for sysadmins
 
 
 Requirements
