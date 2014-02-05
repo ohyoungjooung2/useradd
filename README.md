@@ -1,21 +1,20 @@
 useradd Cookbook
 ================
-TODO: Enter the cookbook description here.
+ This cookbook recipe is for adding many users for developers or other groups
+ Maybe useful for sysadmins. Not sufficient. 
 
-e.g.
-This cookbook makes your favorite breakfast sandwich.
 
 Requirements
 ------------
-TODO: List your cookbook requirements. Be sure to include any requirements this cookbook has on platforms, libraries, other cookbooks, packages, operating systems, etc.
 
-e.g.
-#### packages
-- `toaster` - useradd needs toaster to brown your bagel.
+ This is very simple recipe by using bash provider, DSL template and cookbook_file.
+ So, just need to install Chef server and workstation.
+ 1. I used ubuntu server 12.04
+ 2. Need to install ruby. Mostly ubuntu 1204 server comes with ruby installation.
 
 Attributes
 ----------
-TODO: List you cookbook attributes here.
+ There is not special attributes yet
 
 e.g.
 #### useradd::default
@@ -37,19 +36,11 @@ e.g.
 Usage
 -----
 #### useradd::default
-TODO: Write usage instructions for each cookbook.
+In chef client just do below command.
+chef-client -o useradd
 
-e.g.
-Just include `useradd` in your node's `run_list`:
+You could do above like "ssh -t -i keyfile sudouser@hostname_or_ip 'sudo sudouser chef-client -o useradd'"
 
-```json
-{
-  "name":"my_node",
-  "run_list": [
-    "recipe[useradd]"
-  ]
-}
-```
 
 Contributing
 ------------
@@ -65,4 +56,7 @@ e.g.
 
 License and Authors
 -------------------
-Authors: TODO: List authors
+Author : ohyoungjooung@gmail.com
+Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
+
+http://www.apache.org/licenses/LICENSE-2.0
