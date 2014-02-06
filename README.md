@@ -20,7 +20,7 @@ Attributes
 Usage
 -----
 
-1. add the your public key in files/default/authorized_keys
+1. add the your public key into as files/default/authorized_keys
 2. In chef client just do below command.
 chef-client -o useradd
 
