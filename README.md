@@ -14,7 +14,7 @@ Requirements
 
 Attributes
 ----------
- There is not special attributes yet
+ There is no special attributes yet
 
 
 Usage
@@ -29,9 +29,6 @@ You could do above like "ssh -t -i keyfile sudouser@hostname_or_ip 'sudo sudouse
 
 Contributing
 ------------
-TODO: (optional) If this is a public cookbook, detail the process for contributing. If this is a private cookbook, remove this section.
-
-e.g.
 1. Fork the repository on Github
 2. Create a named feature branch (like `add_component_x`)
 3. Write your change
